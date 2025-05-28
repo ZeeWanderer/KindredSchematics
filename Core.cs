@@ -91,7 +91,7 @@ internal static class Core
 	}
 	private static bool _hasInitialized = false;
 
-	private static World GetWorld(string name)
+	public static World GetWorld(string name)
 	{
 		foreach (var world in World.s_AllWorlds)
 		{
